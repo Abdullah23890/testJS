@@ -1,0 +1,36 @@
+Q1: -
+
+js programming language h website web application ko dynamic, attractive banati h or js web development frontend mn ati h or js or ab full stack ban chuki h javascript backend mn bhi node k sath use hoti h.
+
+
+Q2: -
+
+JavaScript mein variable ek container ya box ki tarah hota hai jisme hum data store kar sakte hain, jise hum baad mein use kar sakte hain ya change kar sakte hain.
+
+Q3: -
+
+var reassign or redecleard ho jata h or old method h or let srf re assign hota h or const permenant hota h na reassign or na redecleard
+
+Q4: -
+
+JavaScript mein datatype ek standard ya rule hai jo batata hai ki variable mein kaunsa type ka data store hoga. Matlab, variable ke andar kis type ki value rakhi ja sakti hai
+Number
+Boolean
+String
+Flot
+
+Q5: -
+
+primitive or non-primative mn difference 
+
+primitive single value store karta h or non-primirive multiple values store kar skhta h
+
+Q6: - 
+
+operator basically == === != !==
+
+= assign operator
+== value karta h check
+=== value or datatype dono check karta h 
+!=
+!== 

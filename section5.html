@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //  Q1: -
+
+        function greater(a, b){
+            if(a > b){
+                return a;
+            } else {
+                return b;
+            }
+        }
+
+        console.log(greater(34, 540));
+
+        // Q2: -
+
+        const min = (c, d) => {
+            if( c > d){
+                return c;
+            } else {
+                return d;
+            }
+        }
+
+        console.log(min(32, 343));
+
+        // Q3: -
+
+        setTimeout(function(){
+            console.log("Hello World")
+        }, 3000)
+
+
+        // Q4: -
+
+        // Function mein default parameters ka faida yeh hota hai ke hum parameter banate waqt hi unki default values set kar dete hain. Is wajah se jab hum function ko call karte hain, to humein lazmi nahi hota ke arguments pass karein. Agar hum function ko sirf fun() ki tarah call karein aur koi value na dein, to bhi function error nahi deta aur default values use kar leta hai. Lekin agar hum default parameters use na karein aur function ko bina values ke call karein fun() to function ko  values na milne ki wajah se error dega.
+
+        function std(name="Arsalan", cast="Malik"){
+            console.log("My Name Is " + name + " My cast is " + cast);
+        }
+        std();
+
+
+        // Q5: -
+
+        let array = [10, 20, 30, 40];
+
+        let newArray = array.map(x => {
+            return x * 10;
+        })
+
+        console.log(newArray);
+        
+
+    </script>
+</body>
+</html>

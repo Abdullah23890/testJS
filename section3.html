@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Q1: -
+
+        let marks = 69;
+
+if(marks >= 40){
+    if(marks >= 80){
+        console.log("A grade");
+    } else if (marks >= 60 && marks <= 79){
+        console.log("B grade");
+    } else if( marks >= 50 && marks <= 59){
+        console.log("C grade");
+    } else if( marks >= 40 && marks <= 49){
+        console.log("D grade");
+    } else {
+        console.log("E grade");
+    }
+} else {
+    console.log("Fail");
+}
+
+        // Q2: - 
+
+// Nested if else is liye use kiya jata h k jb complex kaam ho ab jaise pehle hum check karen k student pass h ya fail agr fail h tu condition stop hojai or agr pass ho tu wo apne Marks check kar skhee or kya Grade aya h
+
+let checkMarks = 89;
+
+if(checkMarks >= 40){
+    if(checkMarks >= 80){
+        console.log("A grade");
+    } else if (checkMarks >= 60 && checkMarks <= 79){
+        console.log("B grade");
+    } else if( checkMarks >= 50 && checkMarks <= 59){
+        console.log("C grade");
+    } else if( checkMarks >= 40 && checkMarks <= 49){
+        console.log("D grade");
+    } else {
+        console.log("E grade");
+    }
+} else {
+    console.log("Fail");
+}
+
+// Q3: -
+
+let grade ;
+let result = 59;
+
+switch (true) {
+    case (result >= 80):
+        grade = "A grade";
+        break;
+    case (result >= 60 && result <= 79):
+        grade = "B grade";
+        break;
+    case (result >= 59 && result <= 59):
+        grade = "C grade";
+        break;
+    default:
+        break;
+}
+
+console.log(grade);
+
+// Q4: -
+
+//  inside
+
+// Q5: -
+
+let dayCheck ;
+let days = prompt("Enter Day Name");
+
+switch(days){
+    case "Monday":
+        dayCheck = "WeekDay";
+        break;
+    case "Thesday":
+        dayCheck = "WeekDay";
+        break;
+    case "Wednesday":
+        dayCheck = "WeekDay";
+        break;
+    case "Thursday":
+        dayCheck = "WeekDay";
+        break;
+    case "Friday":
+        dayCheck = "WeekDay";
+        break;
+    case "Saturday":
+        dayCheck = "Weekend";
+        break;
+    case "Sunday":
+        dayCheck = "Weekend";
+        break;
+    default:
+        break;
+}
+
+alert(dayCheck);
+
+    </script>
+</body>
+</html>
