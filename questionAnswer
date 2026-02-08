@@ -107,4 +107,64 @@ for ( let key in A ){
   console.log(key + " : " + A[key])
 }
 
+Q16: - 
 
+function hum is liye use karte h k aik hi code hume bar bar likhna ho tu us ka hum bana laite h function us ko karte h use ab jaise
+
+function sum(a, b){
+return a + b;
+}
+
+console.log(sum(30, 40));
+
+
+Q17: -
+
+const small = (x) => x.toUpperCase();
+console.log(small("jani"));
+
+Q18: -
+
+Anonymous  function wo hote h jin ki koi pehchan nhi hoti means koi name nhi hota laikin wo function hote h example
+
+setTimeout ( function(){
+console.log("Hello World");
+}, 5000 );
+
+Q19:  -
+
+parameter function is liye use hote h k jb function call tu hum different values pass kar skhee
+or 
+return function is liye use hota h k function ki values ko bhr bhej skhee
+
+Q20: -
+
+function loops(n){
+for(let i = 1; i < n; i++ ){
+console.log(i);
+}
+return n;
+}
+
+console.log(loops(10));
+
+
+Q21: =
+
+function marks(p){
+  if(p >= 80){
+    return "A grade";
+  } else if (p >= 60 && p <= 80) {
+    return "B grade";
+  } else {
+   return "only pass";
+  }
+  }
+
+console.log(marks(59));
+
+Q22: -
+
+function ka benifit yehi h k jo code hamari aik file mn bar bar use ho tu tu agr hum us ko function mn likh lenge tu easily hum us ko har jga use karlen ge or aaise hamara project optimize hoga or application / website fast run karenge.
+
+ 
