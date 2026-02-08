@@ -27,10 +27,84 @@ primitive single value store karta h or non-primirive multiple values store kar 
 
 Q6: - 
 
-operator basically == === != !==
+Arthmetic Operator
+Assignment Operator
+Comparision Operator
 
-= assign operator
-== value karta h check
-=== value or datatype dono check karta h 
-!=
-!== 
+let a = 12;
+let b = 23;
+
+let ans = a + b;
+console.log(ans);
+
+ let c = 12;
+c += 2;
+console.log(c);
+
+let e = 10;
+let f = 23;
+console.log(e == f);
+
+Q7: - 
+
+= ye operator assign karta h value
+== ye value check karta h do conditons ya do variable ki agr 
+=== ye value or datatype dono ko check karta h 
+
+Q8: -
+
+if else conditions is liye use karte h k multiples conditions ko check karne k liye ab jaise result aya h har student apna apna result check karen ga grade jaise hi apne marks enter karen ga tu us ka grade show hoga or is k ilawa kafi jaga use karte h if elseif else
+
+Q9: -
+
+switch case statment bhi multiples values ko check karne k liye hoti h if else ki trh laikin if else complex conditions k liye use hota h or switch case normal conditions k liye or switch case ka code easy hota h beginner k lliye 
+
+Q10: -
+
+if  else or switch case ka comparision yehi h k if else complex conditions k liye use hota h or switch case basically normal conditions k liye.
+
+q11: -
+
+for loop jb use karte h jb hume starting value or ending value pata hoti h wo hum khud dete h 
+for(let i = 1; i <= 20; i++){ console.log( i + " Hello World"); }
+
+Q12: -
+
+while loop basically hum backend k sath use karte h jb hume database se data nikalna ho loop k through tu hum whileLoop use karenge or for loop jb use karte h jb hume starting value or ending value pata ho
+
+Q13: -
+
+dowhile loop hum is liye use karte h q k agr hamari conditions galat ho tb bhi aik bar chale 
+
+let E = 1;
+
+do {
+console.log(E);
+E++;
+} while (E > 20);
+
+ab humne idar (E > 20)   conditions galat di h laikin phr bhi ye one print kar rha h q ye ye hum ne DoWhileLoop mn kiya h 
+
+Q14: - 
+
+forEach ka use array mn is liye use karte h k hume .lenght likhna nhi parta or code chota ho jata h 
+
+let A = [10, 20, 30, 40];
+
+let B = A.forEach((x) => {
+console.log(x);
+})
+
+Q15: -
+
+let A = {
+  name : "Abdullah",
+  cast : "khan",
+  number : 0310
+}
+
+for ( let key in A ){
+  console.log(key + " : " + A[key])
+}
+
+
