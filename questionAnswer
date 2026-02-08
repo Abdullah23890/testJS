@@ -166,5 +166,65 @@ console.log(marks(59));
 Q22: -
 
 function ka benifit yehi h k jo code hamari aik file mn bar bar use ho tu tu agr hum us ko function mn likh lenge tu easily hum us ko har jga use karlen ge or aaise hamara project optimize hoga or application / website fast run karenge.
-
  
+
+Q23: -
+
+let marks = 18;
+
+
+    if(marks >= 41){
+        console.log("Aged");
+    } else if (marks >= 18 && marks <= 40){
+        console.log("Young");
+    } else if( marks >= 1 && marks <= 17){
+        console.log("Baby");
+    }  else {
+        console.log("E grade");
+    }
+
+
+Q24: -
+
+let age = 54 ;
+
+    if(age >= 41){
+        console.log("Aged");
+    } else if (age >= 18 && age <= 40){
+        console.log("Young");
+    } else if( age >= 1 && age <= 17){
+        console.log("kids");
+    }  else {
+        console.log("Plz Enter Value");
+    }
+
+Q25: -
+
+function checkAge(age){
+if(age > 0){
+    if(age >= 41){
+        return "aged";
+    } else if (age >= 18 && age <= 40){
+        return "young";
+    } else if( age >= 1 && age <= 17){
+        return "kids";
+    } } else {
+        console.log("Plz Enter Value");
+    } 
+    
+}
+
+console.log(checkAge(54));
+
+Q26: - 
+
+if else mn complex conditions use kar skhte h 
+or
+switch mn fixed value check hoti h 
+
+
+Q27: -
+
+switch case mn default ka role h k jb koi condition match na ho tu default run karta h jis  trh else if else mn
+
+
