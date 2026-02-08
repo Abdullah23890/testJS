@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    // Q1: - 
+    
+    // shallow copy orignal array mn karta h change or deep copy mn orignal array save rehta h apni orignal condition mn for example
+
+    // Shallow Copy
+    let a = ["Abdullah", "Arsalan", "Ashraf"];
+    let b = a;
+    b.push("Salman");
+    console.log(a);
+
+    // Deep Copy
+    let c = ["Abdullah", "Arsalan", "Ashraf"];
+    let d = [c];
+    d.push("Salman");
+    console.log(c);
+
+
+    // Q2: -
+
+    let e = ["Ali", "Ahmed", "Sara"];
+    e.splice(1,1);
+    console.log(e);
+
+    // Q3: -
+
+    let letter = ["Abdullah", "Salman", "ali"];
+    let print = letter.forEach((x => {
+        if(x.length > 3){
+            console.log(x);
+    }
+    }));
+
+
+    // Q4: -
+
+    let filterVal = [45, 60, 30, 90, 55];
+    let filterApply = filterVal.filter(( y => {
+        return y > 60;
+    }))
+    console.log(filterApply);
+
+    // Q5: -
+
+    let mapVal = [10, 20, 30, 40, 50];
+    let mapApply = mapVal.map(( y => {
+        return y * 10;
+    }))
+
+    console.log(mapApply);
+
+    // Q6: -
+
+    // concat
+    let x = [10, 20, 30];
+    let y = [40, 50, 60];
+    let ans = x.concat(y);
+    console.log(ans);
+
+    // spreed
+
+    let q = [100, 200, 300];
+    let w = [400, 500, 600];
+    let answer = [...q, ...w];
+    console.log(answer);
+
+    // Q7: -
+
+    let structure = [10, 20, 30, 40];
+    let [one, two, three, four] = structure;
+    console.log(one, four);
+
+    // Q8: -
+
+    // 1 2 3 4  answer predict question
+
+    // Q9: -
+
+    let reverseArray = [10, 20, 30];
+    reverseArray.reverse();
+    console.log(reverseArray.join(" - "));
+
+    // Q10: -
+
+    let student = ["Ali", "Ahmed", "Sara", "Hina"];
+    student.splice(1,1);
+    student.unshift("Zoya");
+    console.log(student);
+
+    </script>
+</body>
+</html>
